@@ -1,0 +1,52 @@
+# ------------------------------------------------------------------
+# Lenny Growth Assistant — Backend Dependencies
+# Phase 1: Backend Project Skeleton
+# ------------------------------------------------------------------
+
+# --- Core Framework ---
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# --- Data Validation / Settings ---
+pydantic==2.9.2
+pydantic-settings==2.5.2
+
+# --- Database ---
+sqlalchemy==2.0.35
+alembic==1.13.2
+psycopg2-binary==2.9.9
+asyncpg==0.29.0
+
+# --- Vector Store (RAG - wired later, dependency pinned now) ---
+chromadb==0.5.5
+
+# --- LLM Orchestration (wired later, dependency pinned now) ---
+langchain==0.3.1
+langchain-community==0.3.1
+langchain-openai==0.2.1
+
+# --- Environment / Config ---
+python-dotenv==1.0.1
+
+# --- Logging ---
+loguru==0.7.2
+
+# --- CORS / Middleware Support (bundled with FastAPI/Starlette) ---
+starlette==0.38.6
+
+# --- Testing ---
+pytest==8.3.3
+pytest-asyncio==0.24.0
+httpx==0.28.0
+
+# --- Code Quality ---
+black==24.8.0
+isort==5.13.2
+flake8==7.1.1
+
+openai==1.90.0
+pyyaml==6.0.2
+requests==2.32.3
+anthropic==0.34.2
+
+
